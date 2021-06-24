@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 
 import { DashboardRoutingModule } from './dashboard-routing.module';
 import { ProfileComponent } from './profile/profile.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
   declarations: [
-    ProfileComponent
+    ProfileComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,
