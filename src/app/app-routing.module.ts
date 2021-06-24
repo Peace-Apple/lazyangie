@@ -7,6 +7,14 @@ const routes: Routes = [
     path: '', 
     component: DashboardComponent
   },
+  { 
+    path: 'blog', 
+    loadChildren: () => import(`./blog/blog.module`).then(m => m.BlogModule) 
+  },
+  { 
+    path: 'profile', 
+    loadChildren: () => import(`./profile/profile.module`).then(m => m.ProfileModule) 
+  }
 ];
 
 @NgModule({
