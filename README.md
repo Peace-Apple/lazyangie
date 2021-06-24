@@ -1,4 +1,5 @@
 # Lazyangie
+A simple angular app that demonstrates how we can lazy load feature modules using angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
